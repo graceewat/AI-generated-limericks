@@ -44,6 +44,11 @@ form {
   border: none;
   padding: 10px 15px;
   width: 150px;
+  transition: ease-in-out 0.25s;
+}
+.submit-button:hover {
+  cursor: pointer;
+  background-color: #ff7a5c;
 }
 .poem {
   font-size: 16px;
@@ -61,3 +66,7 @@ footer {
 a {
   color: #53d397;
 }
+.hidden {
+  display: none;
+}
+
